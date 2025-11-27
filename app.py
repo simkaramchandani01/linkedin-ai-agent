@@ -13,6 +13,7 @@ try:
         extract_tone_from_profile,
         conversational_followup,
     )
+    
 except Exception:
     # Minimal fallbacks if functions are missing so app doesn't crash.
     # These fallbacks raise informative errors at call-time if used.
